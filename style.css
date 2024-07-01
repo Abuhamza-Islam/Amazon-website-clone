@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.border{
+  border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.logo{
+    background-image: url(images/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+/* box 2 ----------------------------------------------------------------- */
+.adrs-icon{
+  display: flex;
+  align-items: center;
+   
+}
+.adrs-first-para{
+    margin-left: 15px;
+    color: #cccccc;
+    font-size: 0.8rem;
+}
+.adrs-second-para{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+/* box-3 start----------------------------------------------------------------- */
+.nav-search{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid #ff9900;
+}
+.search-select{
+    border-radius:5px 0 0 5px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+}
+
+.search-icon{
+    border: none;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: 	#ff9900;
+    color: 	#232f3e;
+    border-radius:0 5px 5px 0 ;
+}
+/* box-3 end ------------------------------------------------------------- */
+/*box - 4 start------------------------------------------------------------ */
+  span{
+    font-size: 0.7rem;
+  }
+  .nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+/*box - 4 end------------------------------------------------------------ */
+/* box-6 start---------------------------------------------------------- */
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.fa-cart-shopping{
+    font-size: 30px;
+    
+}
+/* box-6 end------------------------------------------------------- */
