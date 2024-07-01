@@ -100,3 +100,26 @@
     
 }
 /* box-6 end------------------------------------------------------- */
+/* navbar finish here ---------------------------------------------- */
+/* Start panel------------------------------------------------------ */
+.panel{
+    height: 40px;
+    background-color: 	#232f3e;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panel-option{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-option p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
